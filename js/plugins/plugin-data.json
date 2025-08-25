@@ -1398,6 +1398,27 @@
                     "width": "mini"
                 }
             ]
+        },
+
+        "speech-to-text": {
+            "name": "speech-to-text",
+            "title": "Speech to Text",
+            "author": "Amaan/Wisk Team",
+            "contact": "https://wisk.cc",
+            "icon": "speech-to-text.svg",
+            "tags": ["speech", "text", "voice", "ai"],
+            "description": "Speech to text is a plugin that allows you to convert speech to text",
+            "contents": [
+                {
+                    "title": "Speech to Text",
+                    "icon": "speech-to-text.svg",
+                    "category": "auto",
+                    "component": "speech-to-text",
+                    "nav": false,
+                    "textual": false,
+                    "loadAsModule": true
+                }
+            ]
         }
     }
 }
