@@ -2,3 +2,4 @@ node_modules
 .vercel
 .wrangler
 .DS_Store
+config.bat
