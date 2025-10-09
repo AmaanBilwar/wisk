@@ -720,7 +720,7 @@ class PluginManager extends LitElement {
                                                         ? html`<p style="font-size: 14px;">• appears in the left sidebar</p>`
                                                         : ''}
                                                     ${this.selectedPlugin.contents.some(content => content.category.includes('component'))
-                                                        ? html`<p style="font-size: 14px;">• adds a new block to the editor</p>`
+                                                        ? html`<p style="font-size: 14px;">• speech to text feature</p>`
                                                         : ''}
                                                     ${this.selectedPlugin.contents.some(content => content.category.includes('auto'))
                                                         ? html`<p style="font-size: 14px;">
