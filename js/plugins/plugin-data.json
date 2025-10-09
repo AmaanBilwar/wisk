@@ -1194,6 +1194,28 @@
             ]
         },
 
+        "speech-to-text": {
+            "name": "speech-to-text",
+            "title": "Speech to Text",
+            "author": "Wisk Team",
+            "contact": "https://wisk.cc",
+            "icon": "speech-to-text.svg",
+            "tags": ["speech", "voice", "recording", "transcription", "audio"],
+            "description": "A floating modal for speech-to-text recording with microphone controls",
+            "contents": [
+                {
+                    "title": "Speech to Text",
+                    "icon": "speech-to-text.svg",
+                    "category": "component",
+                    "component": "speech-to-text",
+                    "nav": false,
+                    "textual": false,
+                    "loadAsModule": true,
+                    "width": "mini"
+                }
+            ]
+        },
+
         "wisk-terminal": {
             "name": "wisk-terminal",
             "title": "Wisk Terminal",
